@@ -136,7 +136,7 @@ function Sidebar() {
             >
               <img
                 alt="profile-user"
-                src={`../../assets/user.png`}
+                src="../../public/assets/user.png"
                 width="100px"
                 height="100px"
                 style={{ cursor: "pointer", borderRadius: "50%" }}
