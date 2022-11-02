@@ -159,14 +159,14 @@ function Sidebar() {
           <ListItem>
             <ListItemButton
               component={Link}
-              to={"/"}
+              to={"/dashboard"}
               selected={selectedIndex === 0}
               onClick={(event) => handleListItemClick(event, 0)}
             >
               <ListItemIcon>
                 <HomeOutlinedIcon />
               </ListItemIcon>
-              <ListItemText primary={"dashboard"} />
+              <ListItemText primary={"Dashboard"} />
             </ListItemButton>
           </ListItem>
         </List>
